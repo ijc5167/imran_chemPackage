@@ -113,7 +113,7 @@ def read_file(self):
 
                 # Start of input file
                 'ADF Engine Input':
-                                                                ['INPUT START', 0],
+                                                                ['ADF START', 0],
                 ###########
                 # Technical
                 ###########
