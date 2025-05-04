@@ -9,7 +9,6 @@ def collect_input(self, f, indices):
 
     # Create an upper-case and stripped duplicate of the input block.
     # Remove comments (:: or !).
-    si, ei = indices['INPUT START'], indices['INPUT END']
     if 'ADF START' in indices:
         si, ei = indices['ADF START'], indices['ADF END']
     elif 'DFTB START' in indices:
